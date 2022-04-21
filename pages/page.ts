@@ -8,8 +8,8 @@ export class pageObj {
 
     constructor() {
         this.searchTextBox = $("input[title='Search']");
-        this.searchButton = element(By.xpath("//div[@class='FPdoLc tfB0Bf']//input[@name='btnK']"))
-        this.outline =$("div[id='lga']");
+        this.searchButton = element(By.xpath("//body/div[1]/div[3]/form[1]/div[1]/div[1]/div[3]/center[1]/input[1]"));
+        this.outline =element(By.xpath("//body/div[1]/div[3]/form[1]/div[1]"));
     }
 }
 

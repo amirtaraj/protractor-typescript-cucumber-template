@@ -5,7 +5,7 @@
     "line": 1,
     "id": "to-test-a-scenario",
     "tags": [],
-    "uri": "features\\test.feature",
+    "uri": "features/test.feature",
     "elements": [
       {
         "id": "to-test-a-scenario;scenario-name",
@@ -26,11 +26,11 @@
             "line": 6,
             "name": "I open \"google\" page",
             "match": {
-              "location": "typeScript\\stepdefinitions\\search.js:18"
+              "location": "typeScript/stepdefinitions/search.js:18"
             },
             "result": {
               "status": "passed",
-              "duration": 12000000
+              "duration": 3000000
             }
           },
           {
@@ -39,11 +39,11 @@
             "line": 7,
             "name": "I type \"Teksystems\"",
             "match": {
-              "location": "typeScript\\stepdefinitions\\search.js:21"
+              "location": "typeScript/stepdefinitions/search.js:21"
             },
             "result": {
               "status": "passed",
-              "duration": 123000000
+              "duration": 55000000
             }
           },
           {
@@ -52,22 +52,21 @@
             "line": 8,
             "name": "I click on search",
             "match": {
-              "location": "typeScript\\stepdefinitions\\search.js:24"
+              "location": "typeScript/stepdefinitions/search.js:24"
             },
             "result": {
               "status": "passed",
-              "duration": 1964000000
+              "duration": 2243000000
             }
           },
           {
             "keyword": "After",
             "hidden": true,
             "match": {
-              "location": "node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:27"
+              "location": "node_modules/protractor-cucumber-framework/lib/resultsCapturer.js:27"
             },
             "result": {
-              "status": "passed",
-              "duration": 1000000
+              "status": "passed"
             }
           }
         ]
